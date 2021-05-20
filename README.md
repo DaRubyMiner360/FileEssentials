@@ -7,7 +7,7 @@ write to, append to, read from, and so on, from files
 ---
 
 ### Getting Started
-Add the following to your python file
+Add the following to your Python file
 ```python
 import FileEssentials
 ```
