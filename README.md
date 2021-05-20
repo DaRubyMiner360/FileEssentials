@@ -8,7 +8,7 @@ write to, append to, read from, and so on, from files
 
 ### Getting Started
 Add the following to your ParaCode file
-```js
+```javascript
 import("FileEssentials");
 ```
 
@@ -16,7 +16,7 @@ import("FileEssentials");
 Just use the `CreateFile(name);` function.
 
 #### Creating a file If It Does Not Exist
-Just use the `CreateFile(name, true);` function.
+Just use the `CreateFileIfNExists(name);` function.
 
 #### Deleting a File
 Just use the `DeleteFile(name);` function.
