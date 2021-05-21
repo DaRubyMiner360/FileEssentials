@@ -9,7 +9,7 @@ write to, append to, read from, and so on, from files
 ### Getting Started
 Add the following to your ParaCode file
 ```javascript
-import("FileEssentials");
+import "FileEssentials/FileEssentials.para";
 ```
 
 #### Creating a file
