@@ -28,7 +28,7 @@ func DeleteFile(fname) {
         File.delete(name);
     }
     else {
-        print("\033[91m" + "The file does not exist" + "\033[0m");
+        print(Console.RED + "The file does not exist" + Console.DEFAULT);
     }
 }
 
@@ -41,7 +41,7 @@ func DeleteDirectory(fname) {
         File.deletedir(name);
     }
     else {
-        print("\033[91m" + "The directory does not exist" + "\033[0m");
+        print(Console.RED + "The directory does not exist" + Console.DEFAULT);
     }
 }
 
