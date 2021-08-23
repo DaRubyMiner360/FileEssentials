@@ -93,7 +93,7 @@ func CheckFileExists(fname) {
 
 // Creates a file
 func Create(fname) {
-    return CreateFile(fname, ifexists);
+    return CreateFile(fname);
 }
 
 // Creates a file if it doesn't exist
